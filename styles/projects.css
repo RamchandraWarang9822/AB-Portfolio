@@ -1,0 +1,48 @@
+.projects {
+    padding: 60px 10% 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    gap: 40px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    border: var(--primary-color) 5px solid;
+    border-radius: 25px;
+    background-color: var(--primary-color);
+    overflow: hidden;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-text {
+    height: 100%;
+    font-size: 13px;
+    text-align: center;
+    
+}
+
+.project-text h1 {
+    font-size: 1.75rem;
+    color: var(--white);
+}
+
+.project-text p {
+    color: var(--white);
+}
