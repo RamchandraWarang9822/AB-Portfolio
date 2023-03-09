@@ -38,3 +38,9 @@
     height: 100px;
     object-fit: contain;
 }
+
+.console-arrow{
+    margin-right: 5px;
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+}
