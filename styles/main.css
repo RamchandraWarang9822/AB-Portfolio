@@ -20,9 +20,9 @@
     --body-font: 'Poppins', sans-serif;
 }
 
-/* html {
+html {
     scroll-behavior: smooth;
-} */
+}
 
 body {
     background-color: var(--background-color);
