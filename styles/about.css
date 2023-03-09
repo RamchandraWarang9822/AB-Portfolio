@@ -4,4 +4,37 @@
     align-items: center;
     justify-content: center;
     height: calc(100vh - 168.8px);
+    padding: 0 10%;    
+}
+
+.about-me{
+    width: 500px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #1f1f1f;
+    color: #fff;
+    font-family: monospace;
+    font-size: 18px;
+    padding: 20px;
+    line-height: 1.5; 
+}
+
+.skills-title{
+    align-self: flex-start;
+    font-size: 30px;
+}
+
+.skills-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 500px;
+    height: 400px;
+}
+
+.skills-section .skill-img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
 }
